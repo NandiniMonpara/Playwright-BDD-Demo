@@ -1,0 +1,23 @@
+{
+  "name": "playwright-bdd-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "npx bddgen && npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@testdino/playwright": "^1.0.11",
+    "@types/node": "^24.1.0",
+    "playwright-bdd": "^8.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "playwright": "^1.55.0",
+    "tdpw": "^1.0.32"
+  }
+}
